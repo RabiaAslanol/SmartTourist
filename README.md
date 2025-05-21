@@ -1,6 +1,5 @@
-# 📱 SmartTourist – Akıllı Turist Rehberi
-
-SmartTourist, gezginler için tasarlanmış bir mobil uygulamadır. Kullanıcılar, çevrelerindeki gezilecek yerleri keşfedebilir, favori yerlerini kaydedebilir, harita üzerinden yön bulabilir ve yer türlerini yapay zeka ile tahmin edebilirler. Uygulama Kotlin ve Jetpack Compose kullanılarak Android Studio üzerinde geliştirilmiştir.
+#SmartTourist – Akıllı Turist Rehberi
+SmartTourist, gezginler için tasarlanmış bir mobil uygulamadır. Kullanıcılar, çevrelerindeki gezilecek yerleri keşfedebilir, favori yerlerini kaydedebilir, harita üzerinden yön bulabilir ve yer türlerini yapay zeka ile tahmin edebilirler.
 
 --- Özellikler
 
