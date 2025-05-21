@@ -430,7 +430,7 @@ fun HaritaEkrani() {
             }
         }
 
-        // 🔍 Arama çubuğu
+        //  Arama çubuğu
         OutlinedTextField(
             value = searchQuery,
             onValueChange = { searchQuery = it },
@@ -455,7 +455,7 @@ fun HaritaEkrani() {
             }
         )
 
-        // 📍 Konuma git butonu
+        //  Konuma git butonu
         IconButton(
             onClick = {
                 if (permissionState.status is PermissionStatus.Granted) {
@@ -469,7 +469,7 @@ fun HaritaEkrani() {
             },
             modifier = Modifier
                 .align(Alignment.TopEnd)
-                .padding(top = 80.dp, end = 16.dp) // Konum çubuğu ile çakışmasın
+                .padding(top = 80.dp, end = 16.dp) 
                 .background(Color.White, shape = CircleShape)
         ) {
             Icon(
@@ -478,7 +478,7 @@ fun HaritaEkrani() {
             )
         }
 
-        // ⚠️ Snackbar - konum izni verilmemişse
+        //  Snackbar - konum izni verilmemişse
         if (permissionState.status is PermissionStatus.Denied) {
             Snackbar(
                 modifier = Modifier
@@ -544,7 +544,7 @@ fun FavoriYerListesiEkrani() {
                                 .padding(8.dp)
                         ) {
                             Icon(
-                                painter = painterResource(id = R.drawable.ic_delete), // Çöp kutusu ikonu (eklemediysen SVG veya PNG olarak ekle)
+                                painter = painterResource(id = R.drawable.ic_delete), // Çöp kutusu ikonu
                                 contentDescription = "Favoriden Kaldır",
                                 tint = Color.Gray
                             )
