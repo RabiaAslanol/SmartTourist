@@ -638,8 +638,8 @@ fun AyarlarEkrani(
         )
 
         Text(
-            "Geliştiriciler:\nRabia Aslanol, Nilüfer Ekşinar, Ömer",
-            fontSize = 12.sp,
+            "Geliştiriciler:\nRabia Aslanol, Nilüfer Ekşinar, Ömer Onur Çamlı",
+            fontSize = 14.sp,
             color = Color.Gray
         )
     }
